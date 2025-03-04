@@ -1,0 +1,75 @@
+body {
+    background-color: #f1add0; /* Light hex color for background */
+    color: #070725; /* Dark hex color for text */
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+}
+.gidugu-regular {
+    font-family: "Gidugu", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3em; /* Resize the top-level heading (h1) */
+    text-transform: uppercase; /* Make h1 text uppercase */
+    font-family: "Gidugu", sans-serif;
+}
+
+h2 {
+    font-size: 3em; /* Resize the second-level heading (h2) */
+    font-family: "Gidugu", sans-serif;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 3em; /* Resize the third-level heading (h3) */
+    font-family: "Gidugu", sans-serif;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 2em; /* Increase the font size of paragraph text */
+    font-family: "Gidugu", sans-serif;
+}
+
+a {
+    color: #ffffff; /* Hex color for links */
+    text-decoration: underline;
+}
+
+a:hover {
+    color:#070725; /* Hex color for links on hover */
+    text-decoration: none;
+}
+
+img {
+    width: 90%;
+    max-width: 639px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #999999; /* Custom color */
+    margin: 20px 0;
+}
+
+p, ul, ol {
+    padding: 10px 0; /* Add padding around text blocks */
+}
+
+h2, h3, p {
+    margin: 0 0 10px; /* Optional margin customization */
+}
+
+ul, ol {
+    font-family: "Gidugu", sans-serif; /* Font family for lists */
+    font-size: 2em; /* Slightly larger font size for list items */
+    margin-left: 20px; /* Adjust list indentation */
+    line-height: 1.6;  /* Line height for readability */
+}
+
+ul li, ol li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
