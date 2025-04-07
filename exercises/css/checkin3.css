@@ -1,0 +1,98 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr; 
+    grid-template-columns: repeat(12, 1fr);
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(120, 154, 120);
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.topleftparagraph,
+.toprightparagraph,
+.leftparagraph,
+.centerparagraph,
+.rightparagraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.topleftparagraph {
+    background-color: rgb(124, 56, 130);
+    grid-column: 1 / 7;
+    grid-row: 2;
+}
+
+.toprightparagraph {
+    background-color: rgb(209, 35, 93);
+    grid-column: 7 / 13;
+    grid-row: 2;
+}
+
+.leftparagraph {
+    background-color: rgb(56, 58, 130);
+    grid-column: 1 / 5;
+    grid-row: 3;
+}
+
+.centerparagraph {
+    background-color: black;
+    grid-column: 5 / 9;
+    grid-row: 3;
+}
+
+.rightparagraph {
+    background-color: rgb(33, 135, 89);
+    grid-column: 9 / 13;
+    grid-row: 3;
+}
+
+.toprightparagraph img,
+.centerparagraph img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+}
+
+.box-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.box-content p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+}
